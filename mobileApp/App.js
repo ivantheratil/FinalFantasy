@@ -21,7 +21,7 @@ export default function App() {
       <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
       </View>
       <TouchableOpacity onPress={openImagePickerAsync}
-        style={{ backgroundColor: 'red' }}>
+        style={{ backgroundColor: '#660000' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Swing a Nude?</Text>
       </TouchableOpacity>
       
@@ -32,7 +32,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'green',
+    backgroundColor: '#ff4d4d',
     alignItems: 'center',
     justifyContent: 'center',
   },
