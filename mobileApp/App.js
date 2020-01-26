@@ -19,11 +19,12 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.header}>
       <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
+      </View>
       <TouchableOpacity onPress={openImagePickerAsync}
         style={{ backgroundColor: 'red' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Swing a Nude?</Text>
       </TouchableOpacity>
-      </View>
+      
     </View>
   );
 }
