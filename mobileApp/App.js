@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Audio } from 'expo-av';
 import Sound from 'react-native-sound';
-import { playButtonPress } from './audio.js';
 import * as ImagePicker from 'expo-image-picker';
 
 
