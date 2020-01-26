@@ -16,8 +16,7 @@ export default function App() {
     console.log(pickerResult);
   }
   return (
-    <View style={styles.container}
-    onPress={openImagePickerAsync}>
+    <View onPress={openImagePickerAsync} style={styles.button}>
       <Text>Open up App.js to start working on your app!</Text>
       <TouchableOpacity
         style={{ backgroundColor: 'red' }}>
