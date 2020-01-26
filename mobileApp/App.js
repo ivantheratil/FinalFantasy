@@ -17,6 +17,7 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
       <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
       <TouchableOpacity onPress={openImagePickerAsync}
         style={{ backgroundColor: 'red' }}>
@@ -33,4 +34,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header: {
+    backgroundColor: 'pink',
+    padding: 20,
+  }
 });
