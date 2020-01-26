@@ -17,7 +17,6 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
       <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
       <TouchableOpacity onPress={openImagePickerAsync}
         style={{ backgroundColor: 'red' }}>
