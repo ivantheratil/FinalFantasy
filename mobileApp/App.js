@@ -16,11 +16,11 @@ export default function App() {
     console.log(pickerResult);
   }
   return (
-    <View onPress={openImagePickerAsync} style={styles.button}>
+    <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <TouchableOpacity
-        style={{ backgroundColor: 'red' }}>
-        <Text style={{ fontSize: 20, color: '#fff' }}>Apple</Text>
+      <TouchableOpacity onPress={openImagePickerAsync}
+        style={styles.button}>
+        <Text style={{ fontSize: 20, color: '#fff' }}>Swing a Nude?</Text>
       </TouchableOpacity>
     </View>
   );
