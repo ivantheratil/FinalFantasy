@@ -17,9 +17,9 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
       <TouchableOpacity onPress={openImagePickerAsync}
-        style={styles.button}>
+        style={{ backgroundColor: 'red' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Swing a Nude?</Text>
       </TouchableOpacity>
     </View>
