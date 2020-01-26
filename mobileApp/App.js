@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <TouchableOpacity
-        onPress={() => soundObject.loadAsync("./bruh.mp3", initialStatus = {}, downloadFirst = true) }
+        onPress={() => soundObject.loadAsync("./bruh.mp3", initialStatus = {}) }
         style={{ backgroundColor: 'red' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Apple</Text>
       </TouchableOpacity>
