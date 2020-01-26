@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Audio } from 'expo-av';
 import Sound from 'react-native-sound';
-import { playButtonPress } from 'audio';
+import { playButtonPress } from './audio.js';
 
 
 export default function App() {
-  sound = new Sound('bruh.mp3');
+  sound = new Sound('./bruh.mp3');
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
