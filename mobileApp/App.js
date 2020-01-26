@@ -17,11 +17,13 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
       <Text>Who at the Mike and Ophelia Lazardis Quantum Nano-center rn?? sbsb</Text>
       <TouchableOpacity onPress={openImagePickerAsync}
         style={{ backgroundColor: 'red' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Swing a Nude?</Text>
       </TouchableOpacity>
+      </View>
     </View>
   );
 }
