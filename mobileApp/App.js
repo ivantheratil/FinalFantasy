@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Audio } from 'expo-av';
 import Sound from 'react-native-sound';
-import { playButtonPress } from '../helpers/audio';
+import { playButtonPress } from 'audio';
 
 
 export default function App() {
